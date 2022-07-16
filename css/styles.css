@@ -167,6 +167,7 @@ h2 {
   animation: skew 3s infinite;
   transform: skew(10deg);
   animation-direction: alternate;
+  margin-right: 15px;
 }
 
 @keyframes skew {
@@ -225,7 +226,7 @@ footer {
   }
 
   .education p {
-    width: 80%;
+    width: 95%;
   }
 
   .contact-list {
