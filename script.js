@@ -10,3 +10,20 @@ const header = document.querySelector("div"); // querySelector - method returns 
 header.append(newParagraph);
 
 newParagraph.innerHTML = content;
+
+////expanign cards effecr ////
+
+const projectItem = document.querySelectorAll(".project-item");
+
+projectItem.forEach((item) => {
+  item.addEventListener("click", () => {
+    removeCLass();
+    item.classList.add("active");
+  });
+});
+
+function removeCLass() {
+  projectItem.forEach((item) => {
+    item.classList.remove("active");
+  });
+}
