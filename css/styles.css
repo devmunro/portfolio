@@ -238,10 +238,14 @@ footer {
 
   .project-item {
     width: 20%;
+    transition: 1s ease;
+
   }
 
   .active {
     flex-grow: 3;
+    
+
   }
 
   .active > span{
