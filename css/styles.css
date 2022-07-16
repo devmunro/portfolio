@@ -230,8 +230,21 @@ footer {
 }
 
 @media (min-width: 900px) {
-  .project-item img {
-    float: left;
-    margin-right: 20px;
+  .project-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .projects .divider > section {
+    border-bottom: none;
+  }
+
+  .projects .btn {
+    display: none;
+  }
+
+  .projects p {
+    width: 300px;
   }
 }
