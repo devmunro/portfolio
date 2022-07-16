@@ -231,9 +231,17 @@ footer {
 
 @media (min-width: 900px) {
   .project-container {
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 10px;
+  }
+
+  .project-item {
+    width: 15%;
+  }
+
+  .active {
+    flex-grow: 5;
   }
 
   .projects .divider > section {
@@ -245,6 +253,6 @@ footer {
   }
 
   .projects p {
-    width: 300px;
+    display: none;
   }
 }
