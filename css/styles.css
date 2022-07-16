@@ -40,7 +40,7 @@ a:hover {
   color: #0096c7ff; /*blue-green*/
 }
 img {
-  width: 300px;
+  width: 400px;
 }
 
 .content-wrap {
@@ -237,22 +237,27 @@ footer {
   }
 
   .project-item {
-    width: 15%;
+    width: 20%;
   }
 
   .active {
-    flex-grow: 5;
+    flex-grow: 3;
   }
 
+  .active > span{
+    display: inline-block;
+  }
+
+  .project-item .active span {
+    display: block;
+
+  }
   .projects .divider > section {
     border-bottom: none;
   }
 
-  .projects .btn {
+  .projects .btn, .projects p, .projects span  {
     display: none;
   }
 
-  .projects p {
-    display: none;
-  }
-}
+ 
