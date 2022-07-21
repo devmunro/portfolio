@@ -258,6 +258,7 @@ footer {
   .project-item {
     width: 20%;
     transition: 1s ease;
+    cursor: pointer;
   }
 
   .active {
