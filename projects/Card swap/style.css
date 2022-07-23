@@ -1,3 +1,8 @@
+/* border box */
+body {
+  box-sizing: border-box;
+}
+
 /* Flex */
 .container {
   display: flex;
@@ -15,9 +20,8 @@
   margin: 10px;
 }
 
-.cardbox {
-  width: 200px;
-  height: 350px;
-  border: black dashed 2px;
-  margin: 10px;
+.card {
+  width: 90%;
+
+  border: white solid 20px;
 }
