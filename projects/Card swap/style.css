@@ -2,6 +2,9 @@
 .container {
   display: flex;
   flex-wrap: wrap;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-around;
 }
 
 /* Card Design */
@@ -11,4 +14,10 @@
   border: black dashed 2px;
   margin: 10px;
 }
-3
+
+.cardbox {
+  width: 200px;
+  height: 350px;
+  border: black dashed 2px;
+  margin: 10px;
+}
