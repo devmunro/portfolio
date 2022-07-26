@@ -21,6 +21,7 @@ body {
   border-radius: 5px;
   margin: 10px;
   position: relative;
+  box-shadow: black 10px 10px 10px 2px;
 }
 
 .card {
@@ -28,6 +29,7 @@ body {
   height: 100%;
   position: absolute;
   background-image: url(pattern.png);
+  background-size: cover;
 }
 
 .cardback {
@@ -36,5 +38,7 @@ body {
   position: absolute;
   background-image: url(71tK9PWt2tS._AC_SL1500_.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+
   display: none;
 }
