@@ -1,24 +1,29 @@
 /*Global Styles */
 body {
-  margin: 0px;
+  margin: auto;
   font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  width: 70%;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 /*Nav Styles*/
 nav {
   display: flex;
+  
   position: fixed;
   background-color: white;
-  z-index: 2;
+  z-index: 1;
 
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  width: 100%;
+  width: 70%;
   height: 50px;
 }
 nav h1 {
@@ -63,16 +68,19 @@ section p {
 /*main  Styles*/
 
 main {
-  width: 90%;
+  display: flex;
+  justify-content: center;
   margin: 20px;
+
+  height: 900px;
 }
 
 .grid {
   display: grid;
+  width: 100%;
   justify-items: center;
-  margin: 0px;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: repeat(400px);
   gap: 20px 40px;
 }
 #panel1,
@@ -82,7 +90,7 @@ main {
 
 #panel2,
 #panel3 {
-  display: flex;
+  /* display: flex; */
   grid-column: span 2;
 }
 
@@ -94,6 +102,8 @@ main div {
 }
 main div h2 {
   position: absolute;
+  bottom: 0;
+  color: white;
 }
 
 article {
