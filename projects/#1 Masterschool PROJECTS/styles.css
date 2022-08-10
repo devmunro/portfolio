@@ -15,14 +15,18 @@ img {
 /*Nav Styles*/
 nav {
   display: flex;
-  
+  margin: auto;
   position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
   background-color: white;
   z-index: 1;
-
+  
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
+  
   width: 70%;
   height: 50px;
 }
@@ -45,12 +49,14 @@ section {
   width: 100%;
   height: 600px;
   position: relative;
+  margin-top: 70px;
 }
 
 section img {
   width: 100%;
   height: 600px;
   overflow: hidden;
+  border-radius: 25px;
 }
 
 section h2,
