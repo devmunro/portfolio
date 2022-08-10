@@ -1,0 +1,34 @@
+/*Global Styles */
+body {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+/*Nav Styles*/
+nav {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+}
+nav + h1 {
+  font-family: "Righteous", cursive;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+
+/*Main Styles*/
+
