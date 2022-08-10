@@ -4,6 +4,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 /*Nav Styles*/
 nav {
   display: flex;
@@ -23,7 +27,6 @@ nav h1 {
 
 nav ul {
   display: flex;
-  
 }
 
 nav ul li {
@@ -31,7 +34,7 @@ nav ul li {
   list-style: none;
 }
 
-/*Main Styles*/
+/*section  Styles*/
 
 section {
   width: 100%;
@@ -55,4 +58,44 @@ section p {
 
 section p {
   bottom: 20%;
+}
+
+/*main  Styles*/
+
+main {
+  width: 90%;
+  margin: 20px;
+}
+
+.grid {
+  display: grid;
+  justify-items: center;
+  margin: 0px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 20px 40px;
+}
+#panel1,
+#panel4 {
+  grid-column: span 3;
+}
+
+#panel2,
+#panel3 {
+  display: flex;
+  grid-column: span 2;
+}
+
+main div {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+main div h2 {
+  position: absolute;
+}
+
+article {
+  display: block;
 }
