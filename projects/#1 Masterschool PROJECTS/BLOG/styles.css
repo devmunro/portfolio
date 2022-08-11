@@ -96,7 +96,6 @@ main {
 
 #panel2,
 #panel3 {
-  /* display: flex; */
   grid-column: span 2;
 }
 
