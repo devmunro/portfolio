@@ -18,7 +18,7 @@ ul {
   display: flex;
 }
 
- ul li {
+ul li {
   padding: 20px;
   list-style: none;
 }
@@ -115,24 +115,24 @@ main div h2 {
 .grid img {
   transition: 1s ease;
 }
-  .grid img:hover {
-    transform: scale(1.5);
+.grid img:hover {
+  transform: scale(1.5);
 }
 
 /* rest of blog section (including aside) */
-.main-blog {
-  display: flex;
-  flex: nowrap;
-  justify-content: center;
-}
+
 .blog-container {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .blog-section {
   display: flex;
+  flex-wrap: wrap;
   margin: 20px;
   justify-content: space-around;
-  height: 300px;
+
+  width: 100%;
 }
 .blog-section div:nth-child(1) {
   width: 50%;
@@ -157,7 +157,6 @@ figure {
   width: 150px;
   background-color: white;
   transform-origin: 0 0;
-    
 }
 
 aside figure img {
@@ -175,8 +174,7 @@ figure:hover {
   transform: translate(-300px) scale(4, 1);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  transition:  1s;
- 
+  transition: 1s;
 }
 
 figure:hover .noscale {
@@ -185,7 +183,6 @@ figure:hover .noscale {
   align-items: center;
   width: 300%;
   height: 125px;
-  
 }
 figure:hover .noscale p {
   display: block;
@@ -195,14 +192,55 @@ figure:hover figcaption {
   display: none;
 }
 
+/* footer styles */
 
+footer ul {
+  justify-content: center;
+  border: ;
+}
 
-  
+/*media queries */
 
-
-  /* footer styles */
-
-  footer ul{
-    justify-content: center;
-    border: ;
+@media only screen and (max-width: 1100px) {
+  body {
+    width: 90%;
   }
+  aside {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .blog-section {
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+  }
+
+  .blog-section img {
+    width: 350px;
+    height: 250px;
+  }
+  .blog-section div:nth-child(1),
+  .blog-section div:nth-child(2) {
+    width: 100%;
+  }
+
+.spotlight {
+  max-height: 300px;
+}
+.spotlight img {
+  max-height: 300px;
+}
+
+
+
+  .grid {
+    grid-template-columns:  1fr;
+    
+  }
+
+  #panel1, #panel2, #panel3, #panel4  {
+    grid-column: span 3;
+  }
+}
