@@ -141,7 +141,13 @@ aside {
   position: fixed;
   margin-top: 30px;
   z-index: 1;
-  width: 300px;
-  right: -100px;
+  width: 200px;
+  right: -120px;
   top: 100px;
+}
+
+aside figure img {
+
+  border-radius: 50%;
+  height: 100px;
 }
