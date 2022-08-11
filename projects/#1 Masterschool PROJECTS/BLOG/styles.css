@@ -22,11 +22,11 @@ nav {
   top: 0;
   background-color: white;
   z-index: 1;
-  
+
   justify-content: space-between;
   align-items: center;
   padding: 5px;
-  
+
   width: 70%;
   height: 50px;
 }
@@ -45,29 +45,29 @@ nav ul li {
 
 /*section  Styles*/
 
-section {
+.spotlight {
   width: 100%;
   height: 600px;
   position: relative;
   margin-top: 70px;
 }
 
-section img {
+.spotlight img {
   width: 100%;
   height: 600px;
   overflow: hidden;
   border-radius: 25px;
 }
 
-section h2,
-section p {
+.spotlight h2,
+.spotlight p {
   color: white;
   position: absolute;
   bottom: 25%;
   right: 25%;
 }
 
-section p {
+.spotlight p {
   bottom: 20%;
 }
 
@@ -112,6 +112,19 @@ main div h2 {
   color: white;
 }
 
-article {
-  display: block;
+/* rest of blog section (including aside) */
+.main-blog {
+  display: flex;
+  flex: wrap;
+}
+
+.blog-section {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.blog-section div:nth-child(2) {
+  width: 40%;
 }
