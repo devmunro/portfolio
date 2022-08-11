@@ -118,7 +118,7 @@ main div h2 {
   
 }
 .blog-container {
-  width: 90%;
+  width: 100%;
 }
 .blog-section {
   display: flex;
@@ -127,12 +127,12 @@ main div h2 {
   height: 300px;
 }
 .blog-section div:nth-child(1) {
-  width: 60%;
+  width: 50%;
 }
 
 
 .blog-section div:nth-child(2) {
-  width: 40%;
+  width: 35%;
 }
 
 
