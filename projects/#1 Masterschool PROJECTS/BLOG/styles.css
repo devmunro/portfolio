@@ -113,12 +113,12 @@ main div h2 {
 /* rest of blog section (including aside) */
 .main-blog {
   display: flex;
-  flex: wrap;
+  flex: nowrap;
+  justify-content: center;
   
-
 }
 .blog-container {
-  width: 80%;
+  width: 90%;
 }
 .blog-section {
   display: flex;
@@ -127,21 +127,16 @@ main div h2 {
   height: 300px;
 }
 .blog-section div:nth-child(1) {
-  width: 50%;
+  width: 60%;
 }
 
-.blog-section {
-  display: flex;
-  margin: 20px;
-  justify-content: space-around;
-  height: 300px;
-  padding: 10px;
-}
 
 .blog-section div:nth-child(2) {
   width: 40%;
 }
 
+
+/*aside styles */
 aside {
   position: fixed;
   margin-top: 30px;
