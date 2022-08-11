@@ -115,7 +115,6 @@ main div h2 {
   display: flex;
   flex: nowrap;
   justify-content: center;
-  
 }
 .blog-container {
   width: 100%;
@@ -130,11 +129,9 @@ main div h2 {
   width: 50%;
 }
 
-
 .blog-section div:nth-child(2) {
   width: 35%;
 }
-
 
 /*aside styles */
 aside {
@@ -147,8 +144,40 @@ aside {
   text-align: center;
 }
 
-aside figure img {
+figure {
+  width: 150px;
+  background-color: white;
+  transform-origin: 0 0;
+  transition: all 0.1s;
+}
 
+aside figure img {
   border-radius: 50%;
+  height: 135px;
+  width: 135px;
+}
+.noscale p {
+  display: none;
+  width: 100%;
+}
+
+figure:hover {
+  transform: translate(-300px) scale(4, 1);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+figure:hover .noscale {
+  transform: scale(0.25, 1) translate(-720px);
+  display: flex;
+  align-items: center;
+  width: 300%;
   height: 125px;
+}
+figure:hover .noscale p {
+  display: block;
+}
+
+figure:hover figcaption {
+  display: none;
 }
