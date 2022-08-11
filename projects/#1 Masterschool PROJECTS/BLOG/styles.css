@@ -13,6 +13,15 @@ img {
   object-fit: cover;
 }
 
+ul {
+  display: flex;
+}
+
+ ul li {
+  padding: 20px;
+  list-style: none;
+}
+
 /*Nav Styles*/
 nav {
   display: flex;
@@ -31,15 +40,6 @@ nav {
 }
 nav h1 {
   font-family: "Righteous", cursive;
-}
-
-nav ul {
-  display: flex;
-}
-
-nav ul li {
-  padding: 20px;
-  list-style: none;
 }
 
 /*section  Styles*/
@@ -183,3 +183,16 @@ figure:hover .noscale p {
 
 figure:hover figcaption {
   display: none;
+}
+
+
+
+  
+
+
+  /* footer styles */
+
+  footer ul{
+    justify-content: center;
+    border: ;
+  }
