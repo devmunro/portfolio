@@ -7,10 +7,19 @@ button {
 
 
 #button1 {
-    background-color: blue;
+    background-color: #0000ff;
     color: aliceblue;
     border-radius: 10px 0px ;
     border-color: darkblue;
     padding: 15px 25px;
 }
 
+#button1:hover
+ {
+    background-color: #2e2ea1;
+ }
+
+ #button1:active {
+
+    background-color: #8787e4;
+ }
