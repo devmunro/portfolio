@@ -85,3 +85,24 @@ button {
     background-color: #00000036;
     box-shadow: black inset 2px 2px  5px 2px;
  }
+
+
+  /* ---------------BUTTON 4 ----------------------------------- */ 
+  #button5 {
+    background-color: #b254dd;
+    color: white;
+    border-radius: 5px 0px 0px 0px ;
+    border: 0px;
+    padding: 15px 15px;
+}
+
+#button5:hover
+ {
+    box-shadow: #cda1e2 0px 10px 2px;
+ }
+
+ #button5:active {
+
+    background-color: #ae00ff;
+    
+ }
