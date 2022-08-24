@@ -22,3 +22,13 @@ h1 {
     text-shadow: black 2px 1px 5px;
     font: 60px Arial, sans-serif;
 }
+
+
+section {
+
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 25px;
+}
