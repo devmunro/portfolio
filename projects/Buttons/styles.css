@@ -1,39 +1,34 @@
-
 @import "buttons.css";
 
 /* |Global Styles| */
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-
-    width: 100%;
-    height: 300px;
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-
+  width: 100%;
+  height: 300px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
-    padding: 10px;
-    margin: auto 0;
-    text-align: center;
-    color: white;
-    text-shadow: black 2px 1px 5px;
-    font: 60px Arial, sans-serif;
+  padding: 10px;
+  margin: auto 0;
+  text-align: center;
+  color: white;
+  text-shadow: black 2px 1px 5px;
+  font: 60px Arial, sans-serif;
 }
 
-
-section {
-
-    display: grid;
-    padding: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 100px;
-    justify-items:center;
-
+ul {
+  display: grid;
+  padding: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 100px;
+  justify-items: center;
+  list-style: none;
 }
