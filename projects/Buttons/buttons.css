@@ -1,4 +1,13 @@
+/* basic  button style */
 button {
     width: 8rem;
     height: 2rem;
+}
+
+
+#button1 {
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px 0px ;
+    border-color: darkblue;
 }
